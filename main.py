@@ -2,11 +2,7 @@ import streamlit as st
 
 import numpy as np
 
-st.write("""
-# Credit Card Approval Prediction App
-
-This app predicts the credit card approval probablity
-""")
+st.write("""App to pick the largest number from three inputs""")
 #Get Input
 
 st.header('User Input Parameters')
@@ -19,9 +15,6 @@ def user_input_features():
     return features
 
 df = user_input_features()
-
-st.subheader('User Input parameters')
-# Model Loading
-
-st.subheader('Largest number is :')
-st.write(np.sort(df)[-1])
+if (len(df)=3):
+    st.subheader('Largest number is :')
+    st.write(np.sort(df)[-1])
