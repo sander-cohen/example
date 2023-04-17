@@ -15,6 +15,6 @@ def user_input_features():
     return features
 
 df = user_input_features()
-if (len(df)=3):
+if (len(df)==3):
     st.subheader('Largest number is :')
     st.write(np.sort(df)[-1])
