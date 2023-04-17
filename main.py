@@ -2,7 +2,7 @@ import streamlit as st
 
 import numpy as np
 
-st.write("""App to pick the largest number from three inputs""")
+st.header("""App to pick the largest number from three inputs""")
 #Get Input
 
 st.header('User Input Parameters')
